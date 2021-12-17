@@ -7,7 +7,6 @@ end
 fi
 if [ $start = "Y" ]
 then
-function basic_downloads() {
 curl -xget "http://updates-http.cdn-apple.com/2018FallFCS/fullrestores/091-91479/964118EC-D4BE-11E8-BC75-A45C715A3354/iPhone_5.5_12.1_16B92_Restore.ipsw"
 if test -f "iPhone_5.5_12.1_16B92_Restore.ipsw"; then
 echo "Ipsw downloaded"
