@@ -32,3 +32,7 @@ python xnu-qemu-arm64-tools-master/bootstrap_scripts/asn1dtredecode.py Firmware/
 if test -f "Firmware/all_flash/DeviceTree.n66ap.im4p.out"; then
 echo "Device Tree extracted"
 fi
+python3 xnu-qemu-arm64-tools/bootstrap_scripts/asn1rdskdecode.py ./048-32651-104.dmg ./048-32651-104.dmg.out
+if test -f "048-32651-104.dmg.out"; then
+echo "Ram Disk decoded"
+fi
